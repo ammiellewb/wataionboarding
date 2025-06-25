@@ -1,4 +1,3 @@
 # Code Style Enforcer
-- Implemented RLHF and designed an MDP where code generation acted as actions, with reward derived from a custom-trained DistilBERT-based classifier predicting flake8 compliance
-- Fine-tuned a CodeParrot-small GPT-2 model (110M) on 200+ Python snippets
-- Conducted 2-shot PPO with gradient updates and KL clipping to improve style in generated code
+- Aligned a code-generation model to PEP8 using RLHF with PPO; modeled code as MDP actions with rewards from a DistilBERT flake8 classifier
+- Fine-tuned CodeParrot-small (110M) on 200+ compliant Python snippets, then applied 2-shot PPO with KL penalty to improve style fidelity
