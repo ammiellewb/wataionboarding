@@ -12,6 +12,6 @@
 - [Reinforcement Learning with Human Feedback (RLHF) in 4 minutes](https://www.youtube.com/watch?v=vJ4SsfmeQlk)
 - [An introduction to Policy Gradient methods - Deep Reinforcement Learning](https://www.youtube.com/watch?v=5P7I-xPq8u8)
 
-Model: [codeparrot/codeparrot-small · Hugging Face](https://huggingface.co/codeparrot/codeparrot-small) 
-Dataset: [codeparrot/codeparrot-clean · Hugging Face](https://huggingface.co/datasets/codeparrot/codeparrot-clean)
+Model: [codeparrot/codeparrot-small · Hugging Face](https://huggingface.co/codeparrot/codeparrot-small) \
+Dataset: [codeparrot/codeparrot-clean · Hugging Face](https://huggingface.co/datasets/codeparrot/codeparrot-clean) \
 flake8 docs: [Flake8](https://flake8.pycqa.org/en/latest/)
